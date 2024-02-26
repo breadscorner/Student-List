@@ -1,0 +1,5 @@
+# NOTE: modify the RewriteRule as needed
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /week6/lab5/index.php [L,QSA]
